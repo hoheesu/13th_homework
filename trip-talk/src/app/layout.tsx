@@ -11,13 +11,7 @@ export const metadata: Metadata = {
   description: 'My App is a...',
 };
 const myFont = localFont({ src: '../../public/Pretendard-Regular.woff2' });
-export default function RootLayout({
-  children,
-  modal,
-}: {
-  children: ReactNode;
-  modal: ReactNode;
-}) {
+export default function RootLayout({ children }: { children: ReactNode }) {
   // const pathname = usePathname();
 
   return (
